@@ -6,6 +6,7 @@ body {
   background-color: #040404;
   color: #ffffff;
   position: relative;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="%23FFFFFF" width="25px" height="25px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 12.5 12.5, auto;
 }
 
 .stars {
@@ -67,6 +68,7 @@ body::before {
 a {
   color: #e6ab24;
   text-decoration: none;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23000000" stroke="%23FFFFFF" width="15px" height="15px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 7.5 7.5, auto;
 }
 
 a:hover {
@@ -302,7 +304,7 @@ h6 {
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
-  cursor: pointer;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23000000" stroke="%23FFFFFF" width="15px" height="15px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 7.5 7.5, auto;
   display: none;
   line-height: 0;
   transition: 0.5s;
@@ -817,7 +819,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li {
-  cursor: pointer;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23000000" stroke="%23FFFFFF" width="15px" height="15px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 7.5 7.5, auto;
   display: inline-block;
   padding: 8px 16px 10px 16px;
   font-size: 14px;
