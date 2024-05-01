@@ -1,11 +1,3 @@
-/**
-* Template Name: Personal
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -16,12 +8,6 @@ body {
   position: relative;
 }
 
-/* body {
-  background: linear-gradient(-45deg, #ffd89b, #c6b793, #8c968b, #537583, #19547b);
-  background-size: 400% 400%;
-  animation: gradient 5s ease infinite;
-  height: 500vh;
-} */
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -834,7 +820,7 @@ section .container {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .portfolio .portfolio-wrap::before {
