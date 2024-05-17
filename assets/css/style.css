@@ -24,11 +24,13 @@ body {
 .email-link {
   color: #ffffff;
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .email-link:hover {
   color: #e6ab24; 
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .stars {
