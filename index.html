@@ -31,7 +31,15 @@
 </head>
 
 <body>
-  <div class = "stars"></div>
+  <!-- <div class = "stars"></div> -->
+  <div id="particles-js"></div>
+  <script src="./assets/js/particles.js"></script>
+
+  <script>
+    particlesJS.load('particles-js', '/assets/js/particlesjs-config.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
 
   <!-- ======= Header ======= -->
   <header id="header">
