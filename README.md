@@ -14,9 +14,9 @@ This personal portfolio website is designed to provide an overview of my skills,
 
 ### Features
 
-- Custom Circular Cursor: Enhances the modern feel of the website with a unique and stylish cursor.
-- Dynamic Background: Adds an engaging and interactive particle effect to the background, created using [particles.js](https://github.com/VincentGarreau/particles.js).
-- Optimized Layout: Ensures a seamless user experience across all devices, including desktop, tablet, and mobile, with a responsive and adaptive design.
+- **Custom Circular Cursor:** Enhances the modern feel of the website with a unique and stylish cursor.
+- **Dynamic Background:** Adds an engaging and interactive particle effect to the background, created using [particles.js](https://github.com/VincentGarreau/particles.js).
+- **Optimized Layout:** Ensures a seamless user experience across all devices, including desktop, tablet, and mobile, with a responsive and adaptive design.
 
 ## Technologies Used
 
