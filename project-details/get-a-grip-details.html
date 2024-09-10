@@ -56,17 +56,28 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img class="swiper" src="../assets/img/projects/get-a-grip/qarm.png" alt="">
+                    <video id="myVideo" class="swiper" controls playsinline autoplay loop muted poster="../assets/img/projects/get-a-grip/qarm.png">
+                        <source src="../assets/docs/1P13_simulation.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>
                 </div>
 
                 <style>
+                  .swiper {
+                    width: 100%;
+                    height: auto
+                  }
+
                   @media only screen and (max-width: 550px) {
                     .swiper {
-                      width: 85%;
+                      width: 90%;
                     }
                   }
                 </style>
 
+                <script>
+                  document.getElementById('myVideo').playbackRate = 2.0;
+                </script>
               </div>
               <div class="swiper-pagination"></div>
             </div>
