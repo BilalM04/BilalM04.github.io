@@ -2,11 +2,12 @@
 
 Welcome to my personal portfolio website! This project is a showcase of my skills and projects, developed entirely using HTML, CSS, and JavaScript. Feel free to explore my work, achievements, and learn more about me. The portfolio is live and can be accessed at [https://bilalm04.github.io/](https://bilalm04.github.io/).
 
+<!--
 <div align= "center">
    
 <img src="https://github.com/user-attachments/assets/23c977d8-e07f-4f2e-9e07-5eb3f236734f" width="23%"></img> <img src="https://github.com/user-attachments/assets/8365e7d3-4196-4ace-89d8-6076bfb497c8" width="23%"></img> <img src="https://github.com/user-attachments/assets/c31f98ad-fd18-47e6-b802-f2a330aaf82d" width="23%"></img> <img src="https://github.com/user-attachments/assets/384cf7cf-ee65-42d9-a830-22dfa51d0a6e" width="23%"></img> 
 
-</div>
+</div>-->
 
 ## Overview
 
