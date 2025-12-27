@@ -699,7 +699,6 @@ section .container {
 .interests .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
 }
 
@@ -730,20 +729,123 @@ section .container {
   padding-bottom: 10px;
 }
 
-.interests .resume-item:last-child {
-  padding-bottom: 0;
+.resume-row {
+  display: grid;
+  grid-template-columns: 1fr 60px 1fr;
+  align-items: stretch;
+  position: relative;
+  padding: 20px 0;
 }
 
-.interests .resume-item::before {
+.timeline {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.timeline::before {
   content: "";
   position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.timeline .dot {
   width: 16px;
   height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
   background: #e6ab24;
+  border-radius: 50%;
   border: 2px solid #e6ab24;
+  margin-top: 4px;
+  z-index: 1;
+  transform: translateY(-35%);
+}
+
+.resume-row:nth-child(odd) {
+  grid-template-areas: "icon timeline content";
+}
+
+.resume-row:nth-child(odd) .resume-icon {
+  grid-area: icon;
+  justify-self: end;
+}
+
+.resume-row:nth-child(odd) .resume-item {
+  grid-area: content;
+}
+
+.resume-row:nth-child(even) {
+  grid-template-areas: "content timeline icon";
+}
+
+.resume-row:nth-child(even) .resume-icon {
+  grid-area: icon;
+  justify-self: start;
+}
+
+.resume-row:nth-child(even) .resume-item {
+  grid-area: content;
+  text-align: right;
+}
+
+.resume-icon {
+  width: 135px;
+  height: 135px;
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  font-size: 80px;
+  margin-top: 2px;
+
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+}
+
+.counter-plus::after {
+  content: "+";
+  margin-left: 2px;
+}
+
+@media (max-width: 760px) {
+
+  .resume-row {
+    grid-template-columns: 48px 30px 1fr;
+    grid-template-areas: "icon timeline content";
+    padding: 16px 0;
+  }
+
+  .resume-row:nth-child(even),
+  .resume-row:nth-child(odd) {
+    grid-template-areas: "icon timeline content";
+  }
+
+  .resume-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 0;
+    justify-self: center;
+  }
+
+  .resume-item {
+    text-align: left !important;
+    padding-left: 12px;
+  }
+
+  .timeline::before {
+    width: 2px;
+  }
+
+  .timeline .dot {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 /*--------------------------------------------------------------

@@ -241,6 +241,16 @@
   /**
    * Initiate Pure Counter 
    */
-  new PureCounter();
+  new PureCounter({
+    selector: '.purecounter',
+    duration: 2,
+    delay: 10,
+    repeat: false,
+    decimals: 0,
+    legacy: true,
+    filesizing: false,
+    currency: false,
+    separator: true,
+  });
 
 })()
