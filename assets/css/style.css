@@ -812,7 +812,7 @@ section .container {
   margin-left: 2px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 775px) {
 
   .resume-row {
     grid-template-columns: 48px 30px 1fr;
